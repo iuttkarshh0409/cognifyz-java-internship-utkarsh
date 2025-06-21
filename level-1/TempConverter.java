@@ -20,7 +20,7 @@ class Converter {
 
             System.out.println("Temperature entered: " + temp + " " + unit);
         } catch (InputMismatchException e) {
-            System.out.println("❌ Invalid input! Please enter a numeric temperature and valid unit.");
+            System.out.println("Invalid input! Please enter a numeric temperature and valid unit.");
             System.exit(1);
         }
     }
