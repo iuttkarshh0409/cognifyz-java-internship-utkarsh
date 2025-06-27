@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class EncryptDecrypt {
 
     // Method to encrypt the file using Caesar Cipher (+3 shift)
+    @SuppressWarnings("ConvertToTryWithResources")
     static void encryptFile(String inputPath, String outputPath) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(inputPath));
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath));
@@ -24,6 +25,7 @@ public class EncryptDecrypt {
     }
 
     // Method to decrypt the file using Caesar Cipher (-3 shift)
+    @SuppressWarnings("ConvertToTryWithResources")
     static void decryptFile(String inputPath, String outputPath) throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader(inputPath));
         BufferedWriter writer = new BufferedWriter(new FileWriter(outputPath));
