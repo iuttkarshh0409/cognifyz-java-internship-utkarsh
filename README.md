@@ -49,17 +49,19 @@ I have chosen to complete the following levels:
 | 1. Password Generator | Generates a secure random password |
 | 2. Student Grade Calculator | Calculates average of student grades |
 | 3. Temperature Converter | Converts between Celsius and Fahrenheit |
+| 4. Palindrome Checker | Checks if a String is Palindrome (ignoring spaces and special characters) | 
 
 #### 📙 Level 2 – Intermediate Tasks
 | Task | Description |
 |------|-------------|
 | 1. File Encryption/Decryption | Encrypts or decrypts a text file |
 | 2. Password Strength Checker | Evaluates password based on strength rules |
+| 3. Tic Tac Toe Game | A two player CLI-based tic-tac-toe game | 
 
 #### 📕 Level 3 – Advanced Task (Optional)
 | Task | Description |
 |------|-------------|
-| Chat Application (Socket Programming) | Real-time client-server chat app |
+| Bank Management System Application | A multi-thread Application that demonstrates synchronization, locks, and threads |
 
 ---
 
